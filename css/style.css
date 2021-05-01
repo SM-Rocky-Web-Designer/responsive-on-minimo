@@ -1,0 +1,177 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    color: gray;
+    font-family: montserrat;
+    text-align: justify;
+}
+header{
+    width: 100%;
+    padding: 30px 0;
+}
+.container{
+    width: 90%;
+    margin: 0 auto;
+}
+.logo{
+    display: inline-block;
+    width: 15%;
+    float: left;
+}
+.logo img{
+    width: 50px;
+    height: 20px;
+}
+nav{
+    width: 80%;
+    display: inline-block;
+    float: right;
+}
+nav ul{
+    text-align: right;
+
+}
+nav ul li{
+    list-style-type: none;
+    display: inline-block;
+}
+nav ul li a{
+    text-decoration: none;
+    color: gray;
+    font-size: 22px;
+    padding: 30px;
+}
+nav ul li a:last-child{
+    padding-right: 0;
+}
+.container img{
+    width: 100%;
+    margin-bottom: 30px;
+}
+
+.blog img{
+    width: 100%;
+    height: 300px;
+}
+
+.article-text{
+    display: block;
+}
+.article-text span{
+    margin-bottom: 30px;
+    color: rgb(180, 176, 176);
+
+}
+.article-text h1{
+    margin: 30px 0;
+    font-size: 28px;
+}
+.article-text p{
+    margin-bottom: 30px;
+}
+.blog{
+    width: 100%;
+}
+.blog1{
+    width: 47%;
+    display: inline-block;
+}
+.blog2{
+    width: 47%;
+    display: inline-block;
+    float: right;
+}
+.blog1 h1{
+    margin: 30px 0;
+}
+.blog2 h1{
+    margin: 30px 0;
+}
+.sign-up{
+    width: 100%;
+    background-color: rgb(214, 213, 213);
+    margin: 50px 0;
+}
+.sign-up-content h4{
+    color: black;
+    text-align: center;
+    margin-bottom: 10px;
+    font-size: 25px;
+}
+.sign-up-content{
+    width: 40%;
+    margin: 0 auto;
+    padding: 100px 0;
+}
+form input{
+    background-color: rgb(214, 213, 213);
+    border: none;
+    font-size: 18px;
+    margin-right: 250px;
+}
+.load{
+    width: 100%;
+}
+.load .button{
+    text-align: center;
+    margin: 0 auto;
+    padding: 20px;
+}
+.load .button button{
+    background-color: rgb(209, 208, 208);
+    border: none;
+    padding: 20px;
+    border-radius: 5px;
+}
+.load .button button a{
+    text-decoration: none;
+    color: gray;
+    padding: 25px;
+    font-size: 25;
+}
+.footer{
+    width: 100%;
+    height: 70px;
+    background-color: gray;
+}
+.left-content{
+    width: 50%;
+    display: inline-block;
+    float: left;
+}
+.left-content ul{
+    list-style-type: none;
+}
+.left-content ul li {
+    display: inline-block;
+    margin: 25px 15px;
+
+}
+.left-content ul li a{
+    text-decoration: none;
+    color: black;
+    font-size: 22px;
+
+}
+.right-content{
+    width: 50%;
+    display: inline-block;
+    float: right;
+}
+.right-content ul{
+    list-style-type: none;
+    text-align: right;
+}
+.right-content ul li {
+    display: inline-block;
+    margin: 25px 15px;
+
+}
+.right-content ul li a{
+    text-decoration: none;
+    color: black;
+    font-size: 22px;
+
+}

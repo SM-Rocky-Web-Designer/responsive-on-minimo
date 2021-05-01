@@ -1,0 +1,90 @@
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+    nav{
+        display: none;
+    }
+    .menu-icon{
+        float: right;
+
+    }
+    .menu-icon img{
+        width: 25px;
+        border: 2px solid blueviolet;
+        border-radius: 3px;
+        padding: 1px;
+
+    }
+    .blog1, .blog2{
+        width: 100%;
+    }
+    .blog{
+        overflow: hidden;
+    }
+    p{
+        font-size: 14px;
+        text-align: justify;
+        padding-bottom: 5px;
+    }
+    .article-text h1, .blog h1, .blog2 h1{
+        font-size: 20px;
+        margin: 15px 0px 10px 0px;
+    }
+    .container img{
+        margin-bottom: 5px;
+        margin-top: 10px;
+    }
+    .sign-up{
+        margin: 10px 0px;
+    }
+    .sign-up h4{
+        font-size: 15px;
+    }
+    .sign-up-content{
+        padding: 50px;
+    }
+    form input{
+        font-size: 16px;
+        margin-right: 240px;
+        margin-left: 16px;
+    }
+    .load{
+        margin: 5px;
+        padding: 5px;
+    }
+    .load .button button {
+        padding: 8px;
+        font-size: 15px;
+    }
+    .footer{
+        height: 60px;
+    }
+    .left-content ul li a{
+    font-size: 14px;
+    }
+    .right-content ul li a{
+    font-size: 14px;
+
+    }
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+.menu-icon{
+    display: none;
+}
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+
+}
